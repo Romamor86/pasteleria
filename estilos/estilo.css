@@ -24,6 +24,7 @@
     justify-content: space-between;
     align-items: center;
     grid-area: header;
+
 }
 
 .header a img {
@@ -94,7 +95,8 @@
     height: 200px;
     margin-top: 20px;
 }
-.creaciones div figure{
+
+.creaciones div figure {
     text-align: center;
 }
 
@@ -248,6 +250,11 @@ figcaption {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.productosDos:hover{
+    transform: scale(1);
+    transition-property: all;
+    transition-duration: 1s;
+}
 
 .productosDos p {
     margin-bottom: 15px;
@@ -394,11 +401,12 @@ body {
     height: 100px;
 }
 
-.paleta div figure img{
+.paleta div figure img {
     display: flex;
     height: 200px;
     width: 200px;
 }
-.paleta h2{
+
+.paleta h2 {
     text-align: center;
 }
