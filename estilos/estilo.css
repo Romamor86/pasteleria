@@ -48,8 +48,10 @@
     text-decoration: none;
     color: black;
     font-size: 20px;
+    transition: 1s;
 
 }
+
 
 /*------MAIN-----*/
 
@@ -98,6 +100,11 @@
 
 .creaciones div figure {
     text-align: center;
+    transition: 1s;
+}
+
+.creaciones div figure:hover {
+    transform: scale(1.1);
 }
 
 .footer {
@@ -144,6 +151,11 @@
 .footer div a img {
     width: 50px;
     height: 50px;
+    transition: 1s;
+}
+
+.footer div a img:hover {
+    transform: scale(1.1);
 }
 
 .footer a h3 {
@@ -257,14 +269,14 @@ figcaption {
     margin-bottom: 20px;
 }
 
-.productosDos:hover {
-    transform: scale(1);
-    transition-property: all;
-    transition-duration: 1s;
-}
-
 .productosDos p {
     margin-bottom: 15px;
+}
+
+.container div img {
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
 }
 
 /* historia*/
@@ -412,6 +424,10 @@ body {
     display: flex;
     height: 200px;
     width: 200px;
+}
+
+.paleta h1 {
+    text-align: center;
 }
 
 .paleta h2 {
