@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="../estilos/estilo.css">
     <title></title>
 </head>
@@ -33,23 +35,51 @@
     </header>
 
     <section class="productosDos">
-        <div>
-            <a href=""><img id src="../img/pastel flores degrade.jpg" alt="Pastel rosa degrade"></a>
-            <figcaption>Pastel de chocolate y frutillas</figcaption>
-            <a href=""><img src="../img/torta casamiento (1).jpg" alt="Patel de casamiento blanco"></a>
-            <figcaption>Pastel de boda soñada</figcaption>
-            <a href=""><img src="../img/macaron (1).jpg" alt="Macaron de colores"></a>
-            <figcaption>Macaron del amor</figcaption>
+        <div class="container my-3">
+            <div class="row">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../img/torta casamiento (1).jpg" class="card-img-top" alt="pastel de casamiento blanco">
+                        <div class="card-body">
+                            <h5 class="card-title">Torta de casamiento</h5>
+                            <p class="card-text">Pastel de casamiento hecho de bizcocho de vainilla y relleno de lo que mas te guste.</p>
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../img/pastel flores degrade (1).jpg" class="card-img-top" alt="pastel de chocolate y frutillas">
+                        <div class="card-body">
+                            <h5 class="card-title">Torta de chocolate</h5>
+                            <p class="card-text">Torta de chocolate con relleno de crema de frutillas y crocante de avellanas .</p>
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../img/pastel vegano.webp" class="card-img-top" alt="torta vefana de limon">
+                        <div class="card-body">
+                            <h5 class="card-title">Pastel vegano</h5>
+                            <p class="card-text">Torta vegana de limon y relleno de crema vegana de chocolate blanco.</p>
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
     <footer class="footer">
 
         <a href="../index.html"><img src="../img/pasteleria (1) (1).png" alt=""></a>
-
-
-        <h3>Medios de pago</h3>
-        <h3>Formas de envio</h3>
+        <div class="col">
+            <button type="button" class="btn btn-outline-dark">Medios de pago</button>
+        </div>
+        <div class="col">
+            <button type="button" class="btn btn-outline-dark">Formas de envio</button>
+        </div>
         <ul>
             <li>
                 <a href="productos.html">Productos</a>

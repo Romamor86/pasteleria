@@ -146,6 +146,12 @@
     height: 50px;
 }
 
+.footer a h3 {
+    text-decoration: none;
+    color: black;
+
+}
+
 /*------MQ-------*/
 
 @media screen and (max-width:1075px) {
@@ -250,7 +256,8 @@ figcaption {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.productosDos:hover{
+
+.productosDos:hover {
     transform: scale(1);
     transition-property: all;
     transition-duration: 1s;
