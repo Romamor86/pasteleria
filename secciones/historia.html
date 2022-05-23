@@ -6,41 +6,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="../estilos/estilo.css">
     <title></title>
 </head>
 
 <body>
-    <header class="header">
-        <a href="index.html"><img src="../img/pasteleria (1) (1).png" alt=""></a>
-        <nav>
-            <ul>
-                <li>
-                    <a href="../index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="productos.html">productos</a>
-                <li>
-                    <a href="nosotros.html">nosotros</a>
-                </li>
-                <li>
-                    <a href="historia.html">historia</a>
-                </li>
-                <li>
-                    <a href="contacto.html">contacto</a>
-                </li>
-            </ul>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../img/pasteleria (1) (1).png" alt="" width="100px" height="100px">
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item m-3">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown m-3">
+                        <a class="nav-link dropdown-toggle" href="productos.html" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Productos
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Tortas</a></li>
+                            <li><a class="dropdown-item" href="#">Box dulces</a></li>
+                            <li><a class="dropdown-item" href="#">Macarons</a></li>
+                            <li><a class="dropdown-item" href="#">Take away</a></li>
+
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Merchandising</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item m-3">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item m-3">
+                        <a class="nav-link" href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item m-3">
+                        <a class="nav-link active" aria-current="page" href="historia.html">Historia</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
         </nav>
     </header>
-
     <section class="comienzo">
         <h1>Nuestra historia comienza aqui</h1>
         <div>
             <img src="../img/fachada (1) (1).jpg" alt="fachada de pasteleria antigua">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique quo, a quasi libero minima quos porro
                 esse vero totam? Impedit ut fugiat quos eligendi officia recusandae nulla sed asperiores non.</p>
-            <img src="../img/pexels-maria-orlova-4916562 (1) (1).jpg" alt="cocina de pasteleria">
+            <img src="../img/mesa de panes (1) (1).jpg" alt="cocina de pasteleria">
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia, expedita. Incidunt asperiores beatae quos
                 corrupti ea ullam, facere consequatur cumque blanditiis nobis earum quas animi voluptates error fuga.
                 Totam, laudantium.</p>
@@ -51,12 +78,8 @@
 
         <a href="../index.html"><img src="../img/pasteleria (1) (1).png" alt=""></a>
 
-        <div class="col">
-            <button type="button" class="btn btn-outline-dark">Medios de pago</button>
-        </div>
-        <div class="col">
-            <button type="button" class="btn btn-outline-dark">Formas de envio</button>
-        </div>
+        <h2>Formas de envio</h2>
+        <h2>Medios de pago</h2>
 
         <ul>
             <li>
@@ -76,7 +99,7 @@
         <div>
             <a href=""><img src="../img/facebook (1) (1).png" alt=""></a>
             <a href=""><img src="../img/instagram (1) (1) (1).png" alt=""></a>
-            <a href=""><img src="../img/gorjeo (1) (1) (1).png" alt=""></a>
+            <a href=""><img src="../img/logo twiter(1) (1) (1).png" alt=""></a>
         </div>
     </footer>
 </body>
