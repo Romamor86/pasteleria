@@ -6,7 +6,6 @@
     box-sizing: border-box;
 }
 
-
 .grid-conteiner {
     display: grid;
     grid-auto-columns: 1fr;
@@ -21,7 +20,6 @@
     background-color: #DEB6AB;
     font-size: 18px;
 }
-
 
 /*------MAIN-----*/
 
@@ -55,6 +53,10 @@
     color: beige;
 }
 
+.creaciones {
+    margin: 50px 0 50px 0;
+}
+
 .creaciones div {
     display: flex;
     flex-wrap: wrap;
@@ -63,9 +65,8 @@
 }
 
 .creaciones img {
-    width: 190px;
+    width: 200px;
     height: 190px;
-    margin-top: 20px;
     border-radius: 15px 15px 0 0;
 }
 
@@ -77,6 +78,10 @@
     border-radius: 15px;
     width: 200px;
     height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .creaciones div figure:hover {
@@ -84,30 +89,33 @@
 }
 
 .creaciones div figure figcaption {
+    background-color: #DEB6AB;
+    color: white;
+    font-weight: 900;
+    width: 100%;
     padding: 10px;
 }
 
 .footer {
-    background-color: #DEB6AB;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    grid-area: footer;
-}
+   background-color: #DEB6AB;
+   display: flex;
+   justify-content: space-around
+   
+   
 
+}
 
 .footer ul {
     list-style: none;
-
+    
 }
 
 .footer ul li a {
-    text-decoration: none;
     color: black;
     font-size: 20px;
     justify-content: end;
     align-items: center;
-
+    text-decoration: none;
 }
 
 .footer a img {
@@ -141,7 +149,6 @@
 .footer a h3 {
     text-decoration: none;
     color: black;
-
 }
 
 .footer h2 {
@@ -172,7 +179,6 @@
     }
 
 }
-
 
 @media screen and (max-width:661px) {
     .hero h1 {
@@ -239,7 +245,7 @@ figcaption {
     font-size: 19px;
 }
 
-.productosDos>div {
+.productosDos div {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -247,11 +253,24 @@ figcaption {
 }
 
 .productosDos img {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 300px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.productosTres div{
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.productosTres img {
+    width: 250px;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 
 .productosDos p {
     margin-bottom: 15px;
@@ -304,7 +323,6 @@ body {
 .comienzo div {
     display: flex;
     align-items: center;
-
 }
 
 .comienzo div img {
@@ -317,8 +335,6 @@ body {
 .comienzo div p {
     margin-left: 30px;
 }
-
-
 
 /* nosotros*/
 
@@ -352,7 +368,6 @@ body {
     height: 100px;
 }
 
-
 .pasteleras h1 {
     text-align: center;
 }
@@ -369,7 +384,6 @@ body {
     height: 400px;
     margin-top: 20px;
     margin-bottom: 20px;
-
 }
 
 /* contacto*/
@@ -404,25 +418,25 @@ body {
     height: 100px;
 }
 
-.contactoDos p{
+.contactoDos p {
     margin-left: 10px;
     font-size: 18px;
     align-items: center;
 }
-.contactoDos a{
+
+.contactoDos a {
     text-decoration: none;
     color: black;
     margin-left: 10px;
-
 }
-.articulo{
+
+.articulo {
     display: flex;
     flex-direction: row-reverse;
     justify-content: end;
     align-items: center;
     margin-right: 20px;
     font-size: 25px;
-    
 }
 
 .paleta h1 {
