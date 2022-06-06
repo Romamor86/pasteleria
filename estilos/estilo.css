@@ -66,7 +66,7 @@
 
 .creaciones img {
     width: 200px;
-    height: 190px;
+    height: 250px;
     border-radius: 15px 15px 0 0;
 }
 
@@ -97,17 +97,14 @@
 }
 
 .footer {
-   background-color: #DEB6AB;
-   display: flex;
-   justify-content: space-around
-   
-   
-
+    background-color: #DEB6AB;
+    display: flex;
+    justify-content: space-around
 }
 
 .footer ul {
     list-style: none;
-    
+
 }
 
 .footer ul li a {
@@ -235,51 +232,42 @@
     color: black;
 }
 
-p {
-    color: black;
-    font-size: 20px;
-}
-
-figcaption {
-
-    font-size: 19px;
-}
-
-.productosDos div {
+.productosUno div {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
 }
 
-.productosDos img {
-    width: 250px;
+.productosUno img {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px 15px 0 0;
+}
+
+.productosUno div figure {
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 15px;
+    width: 200px;
     height: 300px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.productosTres div{
-     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-}
-.productosTres img {
-    width: 250px;
-    height: 300px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    box-shadow: 5px 5px 5px 4px gray;
 }
 
-
-.productosDos p {
-    margin-bottom: 15px;
+.productosUno figure a {
+    text-decoration: none;
+    color: #F56D91;
+    transition: 1s;
+    margin-bottom: 10px;
 }
-
-.container div img {
-    justify-content: center;
-    align-items: center;
-    margin-left: 30px;
+.productosUno figure a:hover{
+    transform: scale(1.1);
 }
 
 /* historia*/
@@ -318,6 +306,7 @@ body {
 
 .comienzo h1 {
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .comienzo div {
@@ -330,6 +319,9 @@ body {
     height: 400px;
     margin-top: 20px;
     margin-bottom: 20px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-left: 10px;
 }
 
 .comienzo div p {
@@ -381,7 +373,7 @@ body {
 
 .pasteleras img {
     width: 300px;
-    height: 400px;
+    height: 420px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
