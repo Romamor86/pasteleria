@@ -14,31 +14,37 @@
         border-radius: 15px 15px 0 0
     }
 
-    figure {
-        text-align: center;
-        transition: 1s;
-        border: 1px solid gray;
-        box-shadow: 10px 10px 27px 8px rgba(0, 0, 0, 0.75);
-        border-radius: 15px;
-        width: 200px;
-        height: 300px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
+    div {
+        figure {
+            text-align: center;
+            transition: 1s;
+            border: 1px solid gray;
+            box-shadow: 10px 10px 27px 8px rgba(0, 0, 0, 0.75);
+            border-radius: 15px;
+            width: 200px;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
 
-        &:hover {
-            transform: scale(1.1);
+            &:hover {
+                transform: scale(1.1);
+            }
         }
     }
 
-    figcaption {
-        background-color: #DEB6AB;
-        color: white;
-        font-weight: 900;
-        width: 100%;
-        padding: 10px;
+    div {
+
+        figure {
+            figcaption {
+
+                background-color: #DEB6AB;
+                color: white;
+                font-weight: 900;
+                width: 100%;
+                padding: 10px;
+            }
+        }
     }
-
-
 }

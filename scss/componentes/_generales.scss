@@ -1,0 +1,32 @@
+/*EXTEND*/
+
+.titulos {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+h1 {
+    @extend.titulos;
+    text-decoration: overline;
+
+}
+/*MIXIN*/
+
+@mixin color ($color) {
+    color:$color;
+}
+h2{
+    @include color(black)
+}
+/*MAPA*/
+
+$iconos:(
+    facebook: #CDC2AE,
+    twitter: #FFF2F2,
+    instagram:#FFD9C0,
+);
+@each $logo, $colores in $iconos {
+    .social--#{$logo}{
+        background-color: $colores;
+    }
+};

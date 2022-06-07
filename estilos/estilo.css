@@ -191,6 +191,7 @@
     .footer {
         flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
 
     .footer ul {
@@ -198,6 +199,7 @@
         margin: 10px;
     }
 }
+
 
 
 /* Productos */
@@ -266,7 +268,8 @@
     transition: 1s;
     margin-bottom: 10px;
 }
-.productosUno figure a:hover{
+
+.productosUno figure a:hover {
     transform: scale(1.1);
 }
 
