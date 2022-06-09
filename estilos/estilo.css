@@ -162,7 +162,7 @@
     }
 }
 
-@media screen and (max-width:599px) {
+@media screen and (max-width:950px) {
     .header {
         flex-direction: column;
         justify-content: center;
@@ -204,16 +204,24 @@
 
 /* Productos */
 
-.productos img {
-    width: 100px;
-    height: 100px;
+.productos {
+    margin: 20px 0 20px 0;
 }
 
-.productos {
+.productos h2 {
+    text-align: center;
+    color: aliceblue;
+    background-color: #AD8B73;
+    font-weight: 900;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.productos>div {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     align-items: center;
-    background-color: #DEB6AB;
 }
 
 .productos nav ul {
@@ -234,23 +242,10 @@
     color: black;
 }
 
-.productosUno div {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.productosUno img {
-    width: 200px;
-    height: 200px;
-    border-radius: 15px 15px 0 0;
-}
-
-.productosUno div figure {
+.productos div div {
     font-size: 15px;
     text-align: center;
-    border: 1px solid gray;
+    border: 1px solid grey;
     border-radius: 15px;
     width: 200px;
     height: 300px;
@@ -259,21 +254,41 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
-    box-shadow: 5px 5px 5px 4px gray;
+    box-shadow: 5px 5px 5px 4px grey;
+    transition: 1s;
+
 }
 
-.productosUno figure a {
+.productos img {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px 15px 0 0;
+}
+
+.productos div div {
+    transform: scale(1.1)
+}
+
+.productos div div a {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+    background-color: #D7A86E;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+
+
+.productos a {
     text-decoration: none;
     color: #F56D91;
     transition: 1s;
     margin-bottom: 10px;
 }
 
-.productosUno figure a:hover {
-    transform: scale(1.1);
-}
 
-/* historia*/
+/* eventos*/
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -310,6 +325,7 @@ body {
 .comienzo h1 {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: wavy;
 }
 
 .comienzo div {
@@ -318,16 +334,37 @@ body {
 }
 
 .comienzo div img {
-    width: 400px;
-    height: 400px;
+    width: 380px;
+    height: 350px;
     margin-top: 20px;
     margin-bottom: 20px;
     border: 1px solid grey;
     border-radius: 5px;
-    margin-left: 10px;
+    margin-left: 10px
 }
 
 .comienzo div p {
+    margin-left: 30px;
+}
+
+.comienzoDos div{
+    display: flex;
+
+    align-items: center;
+
+
+}
+
+.comienzoDos div img {
+    width: 350px;
+    height: 350px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-left: 10px
+}
+.comienzoDos div p{
     margin-left: 30px;
 }
 
@@ -427,10 +464,9 @@ body {
 
 .articulo {
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: end;
+    flex-wrap: wrap;
     align-items: center;
-    margin-right: 20px;
+    margin-left: 15px;
     font-size: 25px;
 }
 
@@ -438,6 +474,26 @@ body {
     text-align: center;
 }
 
-.paleta h2 {
-    text-align: center;
+.corazon div {
+    display: flex;
+
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.corazon div img {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 15px 15px 15px 15px;
+
+
+}
+
+.corazon p {
+    margin-right: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration-line: underline;
+    color: #D7A86E;
+
 }
